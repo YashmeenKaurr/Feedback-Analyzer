@@ -390,4 +390,4 @@ if __name__ == '__main__':
     create_tables()
     
     port = int(os.environ.get('PORT', 5500))
-    app.run(debug=True, port=port)
+    app.run(debug=True, host='0.0.0.0', port=port)
